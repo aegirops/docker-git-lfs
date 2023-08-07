@@ -19,4 +19,4 @@ Git Large File Storage (LFS) replaces large files such as audio samples, videos,
 
 Available publicly on:
 
-- https://hub.docker.com/r/aegirops/docker-git-lfs
+- https://hub.docker.com/r/aegirops/git-lfs
