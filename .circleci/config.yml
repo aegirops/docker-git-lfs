@@ -16,12 +16,6 @@ jobs:
           name: Build docker image
           command: docker build -t git-lfs .
       - run:
-          name: Check kubectl
-          command: docker run -it git-lfs "which" "kubectl"
-      - run:
-          name: Check gcloud
-          command: docker run -it git-lfs "gcloud" "--version"
-      - run:
           name: Check all versions
           command: |
             echo "[git] "$(docker run -it git-lfs "git"  "--version" | head -n 1)
