@@ -1,5 +1,5 @@
 # Use the official Alpine 3.18 image as the base image
-FROM alpine:3.18
+FROM alpine:3.18 as git_lfs
 
 # Disable caching during package installation
 ENV APK_NO_CACHE=1
